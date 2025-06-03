@@ -179,7 +179,7 @@ table p del {
     text-decoration: line-through;
 }
 
-.promotion-price { 
+.promocao { 
     color: #d9534f; 
     font-weight: bold;
     font-size: 1.2em;
@@ -206,7 +206,7 @@ table tr {
 }
 
 table td {
-    border: 1px solid #eeeeee; /* Borda da célula clara */
+    border: 1px solid #eeeeee;
     padding: 15px;
     text-align: center;
     vertical-align: top;
@@ -215,8 +215,8 @@ table td {
     box-sizing: border-box;
     min-width: 180px;
     max-width: 25%;
-    background-color: #f8f8f8; /* Fundo da célula ligeiramente cinza */
-    color: #333; /* Cor do texto da célula */
+    background-color: #f8f8f8;
+    color: #333; 
 }
 
 table p {
