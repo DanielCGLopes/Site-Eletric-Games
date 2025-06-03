@@ -1,0 +1,101 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+
+h2{
+    text-align: center;
+    color:#007bff;
+}
+
+.texth3{
+    font-size: 1.5em;
+    color: rgb(53, 52, 52);
+    text-indent:    280px;
+}
+
+.produtos {
+    padding: 15px;
+    border: 1px solid #dddddd;
+    margin: 20px auto;
+    max-width: 600px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.produtos img {
+    max-width: 150px;
+}
+
+.produtos .text-content { 
+    flex-grow: 1;
+    text-align: left;
+}
+
+.main-nav{
+    background-color: #444;
+    text-align: center;
+}
+
+.main-nav li {
+    display: inline-block;
+}
+
+.main-nav li a {
+    display: block;
+    color: white;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+.category-links {
+    text-align: center;
+}
+
+.category-links a {
+    display: inline-block;
+    padding: 15px 40px;
+    text-decoration: none;
+}
+
+.preco{
+    color: red;
+}
+
+.promocao{
+    color: red;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto; 
+}
+table img {
+    max-width: 120px;
+    height: auto;
+    margin: 0 auto 5px auto;
+}
+
+table p {
+    margin: 3px 0;
+    font-size: 0.85em;
+    text-align: center;
+}
+
+table td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center; 
+    vertical-align: top;
+    width: 25%; 
+    box-sizing: border-box;
+    flex: 1 1 calc(25% - 20px);
+    min-width: 200px;
+    max-width: 25%;
+}
